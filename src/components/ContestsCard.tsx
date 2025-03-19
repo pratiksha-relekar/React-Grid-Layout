@@ -30,14 +30,7 @@ const ContestsCard: React.FC = () => {
               alt="Contest Illustration" 
               className="w-full object-contain hover:scale-105 transition-transform duration-300" 
             />
-            <div className="absolute bottom-0 right-0 flex -space-x-2">
-              <div className="w-8 h-8 rounded-full bg-amber-400 flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
-                🏆
-              </div>
-              <div className="w-8 h-8 rounded-full bg-orange-400 flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
-                💼
-              </div>
-            </div>
+         
           </div>
         </div>
       </div>

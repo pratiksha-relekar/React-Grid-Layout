@@ -36,7 +36,26 @@ const DegreeCard: React.FC = () => {
           className="w-full h-40 object-cover rounded-lg shadow-sm mt-39." 
         />
       </div>
+
+      <div className="absolute bottom-[20px] right-5 flex -space-x-2">
+              <div className="w-8 h-8 rounded-full bg-amber-400 flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
+                🎓
+              </div>
+              <div className="w-8 h-8 rounded-full bg-orange-400 flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
+                💡
+              </div>
+              <div className="w-8 h-8 rounded-full bg-amber-400 flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
+                📚
+              </div>
+              <div className="w-8 h-8 rounded-full bg-orange-400 flex items-center justify-center text-white hover:scale-110 transition-transform duration-300">
+                🌟
+              </div>
+            </div>
+
     </div>
+
+  
+
   );
 };
 
